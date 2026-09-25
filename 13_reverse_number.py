@@ -2,7 +2,6 @@
 # Reverses any integer using arithmetic operations (e.g. 195 -> 591)
 
 n = int(input("Enter number to reverse: "))
-
 temp = n
 rev = 0
 
@@ -13,3 +12,4 @@ while n > 0:
 
 print(f"Original Number: {temp}")
 print(f"Reversed Number: {rev}")
+
